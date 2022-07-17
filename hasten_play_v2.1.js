@@ -1,3 +1,16 @@
+// ==UserScript==
+// @name         Hxpxw_player
+// @namespace    Yoncms/Hxpxw
+// @version      2.1
+// @description  突破视频观看速度以及进度条无法拖动的限制，极速完成观看任务！
+// @author       Yoncms
+// @match        http://pt.hxpxw.net/els/html/courseStudyItem/courseStudyItem.learn.do*
+// @icon
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
 (function(){
 
 	//*就是2.1版的源代码
@@ -70,4 +83,6 @@
     setN();
     mfoo( n )
   };
+})();
+
 })();
